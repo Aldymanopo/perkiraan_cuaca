@@ -10,7 +10,7 @@ btnSearch.onclick = () => {
         return;
     }
 
-    const apiURL = `http://api.weatherapi.com/v1/current.json?key=e090ce90580d4968b64103830231210&q=${manado}&aqi=no`;
+    const apiURL = `http://api.weatherapi.com/v1/current.json?key=e090ce90580d4968b64103830231210&q=${location}&aqi=no`;
 
     fetch(apiURL)
         .then((res) => {
