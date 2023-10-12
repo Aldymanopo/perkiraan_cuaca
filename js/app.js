@@ -1,5 +1,5 @@
 const weatherAPI =
-    "http://api.weatherapi.com/v1/current.json?key=fea3ed6b758842caa5374319231210&q=Manado&aqi=no";
+    "http://api.weatherapi.com/v1/current.json?key=fea3ed6b758842caa5374319231210&q=Manado&aqi=yes";
 const keyword = document.querySelector(".keyword");
 const btnSearch = document.querySelector(".btn-search");
 
