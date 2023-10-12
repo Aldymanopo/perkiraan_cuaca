@@ -1,4 +1,4 @@
-const weatherAPI = "http://api.weatherapi.com/v1/current.json?key=e090ce90580d4968b64103830231210&aqi=no";
+const weatherAPI = "a0fef9f1e2d8bc8e9cc81c153fd2045d";
 const keyword = document.querySelector(".keyword");
 const btnSearch = document.querySelector(".btn-search");
 const container = document.getElementById("container");
@@ -10,7 +10,7 @@ btnSearch.onclick = () => {
         return;
     }
 
-    const apiURL = `http://api.weatherapi.com/v1/current.json?key=e090ce90580d4968b64103830231210&q=${location}&aqi=no`;
+    const apiURL = `a0fef9f1e2d8bc8e9cc81c153fd2045d`;
 
     fetch(apiURL)
         .then((res) => {
